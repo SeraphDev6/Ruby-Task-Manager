@@ -1,1 +1,5 @@
 Name,Description,Due Date,Priority
+Inline Commands,Refactor Application to enable In-line commands ie('finish details') will do commands finish and then details,6/30/2021,1
+Unit Tests,Create Unit Tests for application in order to test each of the functions,6/30/2021,2
+Input Validation,Add Input Validation for due date and priority,6/30/2021,4
+Edit Function,Create a method to edit Task's details,6/30/2021,5
