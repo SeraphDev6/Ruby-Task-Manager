@@ -3,6 +3,7 @@ require_relative "Task"
 require_relative "Task_manager"
 include Task_manager
 #Load from CSV
+$data=[]
 Load()
 #Show Help Menu
 Help()
@@ -12,6 +13,14 @@ while true
   case input
     when "add"
       Add()
+    when "finish"
+      Finish()
+    when "list"
+      List()
+    when "sort"
+      Sort()
+    when "details","detail"
+      Details()
     when "help"
       Help()
     when "exit"
@@ -23,4 +32,3 @@ while true
     end
 end
 puts "Goodbye."
-
