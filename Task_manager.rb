@@ -19,16 +19,17 @@ module Task_manager
 #----------------------------------------------------------
   #Help Menu
   def Help()
-    puts "Type 'Add' to add a task"
-    puts "Type 'Finish' to add a task"
+    puts "Type 'Add' to Add a task"
+    puts "Type 'Finish' to Finish a task"
     puts "Type 'List' to List all tasks"
     puts "Type 'Sort' to Sort tasks"
-    puts "Type 'Details' to view a task's details"
+    puts "Type 'Details' to view a task's Details"
     puts "Type 'Exit' to close the Task Log"
   end
+#----------------------------------------------------------
   def Add()
     puts "What is the Task's Name?"
-    name=STDIN.gets().chomp
+    name=STDIN.gets().chompmy
     puts "What is the Task's Description?"
     desc=STDIN.gets().chomp
     puts "What is the date the Task is Due?"
@@ -118,7 +119,7 @@ module Task_manager
       end
     end
     puts "Sorry, I couldn't find that Task."
-    dputs "Returning to Main Menu"
+    puts "Returning to Main Menu"
   end  
 end
 
